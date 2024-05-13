@@ -44,6 +44,17 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 Agora você pode acessar a API em **http://localhost:PORTA**, onde **PORTA** é a porta configurada para sua aplicação Go.
 
+
+## Capitulo 1
+
+- Entendenmos o que é uma API
+- Realizamos uma requisição GET retornando um Json.
+
+## Capitulo 2
+
+- 
+- 
+
 # Contribuições
 Contribuições são bem-vindas! Se você encontrar um problema, tiver uma ideia ou quiser contribuir de qualquer forma, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
