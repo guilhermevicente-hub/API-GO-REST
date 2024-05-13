@@ -12,32 +12,39 @@ O objetivo deste projeto é demonstrar minhas habilidades em desenvolvimento de 
 - Banco de Dados: PostgreSQL (Docker)
 - ORM: [Nome do ORM utilizado, se aplicável]
 - Outras Dependências: [Liste outras dependências importantes]
-- Pré-requisitos
-- Antes de começar, certifique-se de ter instalado em sua máquina:
 
-Go
-Docker
-PostgreSQL (opcional, se você já possui um banco de dados PostgreSQL instalado localmente)
-Como executar
-Clone este repositório:
-bash
-Copy code
-git clone https://github.com/seu-usuario/seu-repositorio.git
-Navegue até o diretório do projeto:
-bash
-Copy code
-cd seu-repositorio
-Execute o banco de dados PostgreSQL usando Docker:
-bash
-Copy code
-docker-compose up -d
-Execute a aplicação Go:
-bash
-Copy code
-go run main.go
-Agora você pode acessar a API em http://localhost:PORTA, onde PORTA é a porta configurada para sua aplicação Go.
 
-Contribuições
+# Pré-requisitos
+
+Antes de começar, certifique-se de ter instalado em sua máquina:
+
+- [Go](https://go.dev/)
+- [Docker](https://www.docker.com/)
+- [PostgreSQL](https://www.postgresql.org/) (opcional, se você já possui um banco de dados PostgreSQL instalado localmente)
+# Como executar
+
+1. Clone este repositório:
+
+
+> git clone https://github.com/seu-usuario/seu-repositorio.git
+
+2. Navegue até o diretório do projeto:
+
+> cd seu-repositorio
+
+3. Execute o banco de dados PostgreSQL usando Docker:
+
+> docker-compose up -d
+
+4. Execute a aplicação Go:
+
+> go run main.go
+
+
+
+Agora você pode acessar a API em **http://localhost:PORTA**, onde **PORTA** é a porta configurada para sua aplicação Go.
+
+# Contribuições
 Contribuições são bem-vindas! Se você encontrar um problema, tiver uma ideia ou quiser contribuir de qualquer forma, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Licença
