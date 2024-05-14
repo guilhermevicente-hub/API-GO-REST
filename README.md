@@ -50,10 +50,17 @@ Agora você pode acessar a API em **http://localhost:PORTA**, onde **PORTA** é 
 - Entendenmos o que é uma API
 - Realizamos uma requisição GET retornando um Json.
 
-## Capitulo 2
+## Capitulo 2 - Roteador, recursos por ID e Docker
 
-- 
-- 
+- Adicionamos o [Gorilla Mux](https://github.com/alura-cursos/api-go-rest/blob/aula_2/routes/routes.go) como novo roteador da nossa aplicação;
+- etornamos um [único recurso](https://github.com/alura-cursos/api-go-rest/blob/aula_2/controllers/controllers.go) através do id;
+- Criamos uma imagem do banco de dados Postgres com Docker e executamos um [script SQL que adicionava alguns registros em nosso banco de dados](https://github.com/alura-cursos/api-go-rest/blob/aula_2/migration/docker-database-initial.sql).
+
+## Capitulo 3
+
+-
+-
+-
 
 # Contribuições
 Contribuições são bem-vindas! Se você encontrar um problema, tiver uma ideia ou quiser contribuir de qualquer forma, sinta-se à vontade para abrir uma issue ou enviar um pull request.
