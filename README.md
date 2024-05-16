@@ -76,11 +76,11 @@ go get -u gorm.io/gorm
 
 > Usando o "Find()" buscamos todas as personalidades passando o endereço de memória da estrutura que temos, que queremos exibir e para retornarmos apenas uma utilizamos o "DB.First" para ele voltar passando o endereço de memória da personalidade, da pessoa que estamos buscando e o Id.
 
-## Capitulo 4
+## Capitulo 4 - Criando, deletando e editando com Gorm
 
-- 
-- 
-- 
+- Adicionamos um endpoint com método Post para criar uma nova personalidade e salvá-la no banco de dados;
+- Adicionamos um endpoint com método Delete para deletar uma personalidade e removê-la do banco de dados;
+- Adicionamos um endpoint com método Put para atualizar uma personalidade e alterá-la no banco de dados.
 
 
 # Contribuições
