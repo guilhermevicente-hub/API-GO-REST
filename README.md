@@ -26,19 +26,27 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 1. Clone este repositório:
 
 
-> git clone https://github.com/seu-usuario/seu-repositorio.git
+```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+```
 
 2. Navegue até o diretório do projeto:
 
-> cd seu-repositorio
+```bash
+   cd seu-repositorio
+```
 
 3. Execute o banco de dados PostgreSQL usando Docker:
 
-> docker-compose up -d
+```bash
+   docker-compose up -d
+```
 
 4. Execute a aplicação Go:
 
-> go run main.go
+```bash
+  go run main.go
+```
 
 
 
@@ -56,11 +64,24 @@ Agora você pode acessar a API em **http://localhost:PORTA**, onde **PORTA** é 
 - etornamos um [único recurso](https://github.com/alura-cursos/api-go-rest/blob/aula_2/controllers/controllers.go) através do id;
 - Criamos uma imagem do banco de dados Postgres com Docker e executamos um [script SQL que adicionava alguns registros em nosso banco de dados](https://github.com/alura-cursos/api-go-rest/blob/aula_2/migration/docker-database-initial.sql).
 
-## Capitulo 3
+## Capitulo 3 - Conexão com banco e exibindo os dados
 
--
--
--
+- Instalamos o Gorm
+```bash
+go get -u gorm.io/gorm
+```
+- Realizamos a conexão da API com banco de dados
+    >  criei uma pasta chamada “database” e dentro dela um arquivo chamado “db.go”. Esse arquivo “db.go” vai ser responsável por conectar com o banco de dados.
+- Alteramos as funções do controller para exibir as informações do banco de dados.
+
+> Usando o "Find()" buscamos todas as personalidades passando o endereço de memória da estrutura que temos, que queremos exibir e para retornarmos apenas uma utilizamos o "DB.First" para ele voltar passando o endereço de memória da personalidade, da pessoa que estamos buscando e o Id.
+
+## Capitulo 4
+
+- 
+- 
+- 
+
 
 # Contribuições
 Contribuições são bem-vindas! Se você encontrar um problema, tiver uma ideia ou quiser contribuir de qualquer forma, sinta-se à vontade para abrir uma issue ou enviar um pull request.
