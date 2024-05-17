@@ -82,6 +82,13 @@ go get -u gorm.io/gorm
 - Adicionamos um endpoint com método Delete para deletar uma personalidade e removê-la do banco de dados;
 - Adicionamos um endpoint com método Put para atualizar uma personalidade e alterá-la no banco de dados.
 
+## Capitulo 5 - Middleware e interação com front-end
+
+- Indicamos o tipo do arquivo nas respostas da requisições incluindo o [cabeçalho Content-Type](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers/Content-Type);
+- [Criamos um middleware](https://github.com/alura-cursos/api-go-rest/blob/aula_5/middleware/middleware.go) para evitar código duplicado no controller;
+- Entendemos a importância da [política de mesma origem](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS) e como compartilhar recursos de origens diferentes configurando o CORS;
+- Configuramos o CORS e integramos a API Go com uma aplicação React.
+
 
 # Contribuições
 Contribuições são bem-vindas! Se você encontrar um problema, tiver uma ideia ou quiser contribuir de qualquer forma, sinta-se à vontade para abrir uma issue ou enviar um pull request.
